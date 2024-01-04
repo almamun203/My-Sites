@@ -1,12 +1,39 @@
-*{}
-.header{}
+*{
+    margin: 0%;
+}
+
+
+.header{
+display: flex;
+}
 .logo{}
-.title{}
+.title{
+    display: flex;
+}
+#top-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right:0;
+    padding-right: 0;
+
+    
+}
+#style-B{
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+    margin: left 0; 
+    padding-left: 0;
+
+}
 .menu-bar{}
+
+
 .nav-container{}
 .nav1{}
 .nav2{}
 .nav3{}
+
+
+
 .main{}
 .article{}
 .section1{}
@@ -16,4 +43,5 @@
 .aside1{}
 .aside2{}
 .aside3{}
+
 .footer{}
