@@ -5,43 +5,173 @@
 
 .header{
 display: flex;
+background-color: cadetblue;
+
+margin: 0;
 }
-.logo{}
+.logo{
+    margin-right: 40px;
+   margin-left: 40px;
+    margin-top: 15px;
+    padding:0;
+   
+   
+}
+.header>.logo>img{
+    border-radius: 15px;
+  
+}
 .title{
     display: flex;
+    margin-right: 400px;
+    margin-left:50px ;
+    margin-top: 10px;
 }
 #top-title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-right:0;
     padding-right: 0;
+    padding-bottom: 10px;
 
     
 }
 #style-B{
-    font-family: 'Courier New', Courier, monospace;
-    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:rgb(150, 15, 105);
     margin: left 0; 
     padding-left: 0;
 
 }
-.menu-bar{}
+.menu-bar{
+    display: flex;
+    margin-top: 5px;
+    
+    padding-bottom: 15px;
+   
+
+  
+
+}
+div > ul > li>.dropdown{
+    display:none;
+}
+div > ul > li:hover .dropdown{
+    display:block;
+  
+}
+div > ul > li{
+    
+    list-style: none;
+    padding:10px;
+
+}
+div > ul > li >a{
+    text-decoration: none;
+    color:rgb(99, 9, 99);
+   
+
+}
+div > ul > li:hover{
+    background-color: dimgray;
+}
+div > ul{
+    display: flex;
+   
+    
+}
 
 
-.nav-container{}
+/* .nav-container{}
 .nav1{}
 .nav2{}
-.nav3{}
+.nav3{} */
 
 
 
-.main{}
-.article{}
-.section1{}
-.section2{}
-.section3{}
-.section4{}
-.aside1{}
-.aside2{}
+.main{
+    background-image: url("../Images/ash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.article{
+    width: 50%;
+}
+.article>section>p{color:rgb(199, 197, 201)}
+.article>section>h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: larger;
+    color: lemonchiffon;
+}
+.section1{
+    padding: 30px;
+    margin: 15px;
+    
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px aquamarine;
+}
+.section2{
+    padding: 30px;
+    margin: 15px;
+    
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px royalblue;
+}
+.section3{
+    padding: 30px;
+    margin: 15px;
+    
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px aquamarine;
+}
+.section4{
+    padding: 30px;
+    margin: 15px;
+    
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px royalblue;
+}
+aside{
+    display: flex;
+}
+.aside1{
+padding: 10px;
+margin: 10px;
+}
+aside>.aside1>img{
+    border-radius: 25px;
+    border: 2px solid violet;
+    box-shadow: 5px 5px 5px violet;
+}
+.aside2{
+    width:30%;
+    padding: 30px;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+   
+   
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px aquamarine;
+
+}
+.aside2>h1{
+    color: lemonchiffon;
+}
+.aside2>img{
+   border-radius: 25px;
+   
+}
 .aside3{}
 
 .footer{}
